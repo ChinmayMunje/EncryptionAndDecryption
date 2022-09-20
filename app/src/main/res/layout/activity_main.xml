@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/idIVimage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/idBtnEncrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVimage"
+        android:layout_margin="10dp"
+        android:text="Encrypt" />
+
+
+    <Button
+        android:id="@+id/idBtnDecrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idBtnEncrypt"
+        android:layout_margin="10dp"
+        android:text="Decrypt" />
+
+
+</RelativeLayout>
